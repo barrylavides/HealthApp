@@ -16,6 +16,8 @@
 		832FC1DE1C69894200D26EE6 /* HealthAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FC1DD1C69894200D26EE6 /* HealthAppUITests.swift */; };
 		832FC1EF1C69896C00D26EE6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832FC1EE1C69896C00D26EE6 /* SWRevealViewController.m */; };
 		832FC1F11C6991CD00D26EE6 /* OurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FC1F01C6991CD00D26EE6 /* OurViewController.swift */; };
+		832FC1F31C69AFA000D26EE6 /* DirectoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FC1F21C69AFA000D26EE6 /* DirectoryTableViewController.swift */; };
+		832FC1F51C69B0D100D26EE6 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FC1F41C69B0D100D26EE6 /* EventsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		832FC1ED1C69896C00D26EE6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		832FC1EE1C69896C00D26EE6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		832FC1F01C6991CD00D26EE6 /* OurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurViewController.swift; sourceTree = "<group>"; };
+		832FC1F21C69AFA000D26EE6 /* DirectoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryTableViewController.swift; sourceTree = "<group>"; };
+		832FC1F41C69B0D100D26EE6 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				832FC1BD1C69894100D26EE6 /* AppDelegate.swift */,
 				832FC1BF1C69894100D26EE6 /* ViewController.swift */,
 				832FC1C11C69894100D26EE6 /* Main.storyboard */,
+				832FC1F41C69B0D100D26EE6 /* EventsViewController.swift */,
+				832FC1F21C69AFA000D26EE6 /* DirectoryTableViewController.swift */,
 				832FC1F01C6991CD00D26EE6 /* OurViewController.swift */,
 				832FC1C41C69894100D26EE6 /* Assets.xcassets */,
 				832FC1C61C69894100D26EE6 /* LaunchScreen.storyboard */,
@@ -275,9 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				832FC1C01C69894100D26EE6 /* ViewController.swift in Sources */,
+				832FC1F31C69AFA000D26EE6 /* DirectoryTableViewController.swift in Sources */,
 				832FC1BE1C69894100D26EE6 /* AppDelegate.swift in Sources */,
 				832FC1EF1C69896C00D26EE6 /* SWRevealViewController.m in Sources */,
 				832FC1F11C6991CD00D26EE6 /* OurViewController.swift in Sources */,
+				832FC1F51C69B0D100D26EE6 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +517,7 @@
 				832FC1E41C69894200D26EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		832FC1E51C69894200D26EE6 /* Build configuration list for PBXNativeTarget "HealthAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				832FC1E71C69894200D26EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		832FC1E81C69894200D26EE6 /* Build configuration list for PBXNativeTarget "HealthAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				832FC1EA1C69894200D26EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
